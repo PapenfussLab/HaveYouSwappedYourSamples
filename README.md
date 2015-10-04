@@ -5,7 +5,7 @@ This project contains simple methods to measure sample relatedness and identify 
 ------------
 INSTALLATION
 ------------
-The main script only depends on the right kind of data and bash.
+The main script (concordance_script.sh) only depends on the right kind of data and bash.
 The optional plotting routine depends on ggplot2 being installed within R.
 
 ----
@@ -15,16 +15,16 @@ The script relies on the data being formatted and sorted in the following way:
 1. each sample (and germ line) should have one tab delimited file that specifies
 	SNP_ID CHR POS VAF
 	The script actually only uses the VAF field (variant allele frequency)
-2. the files specified above ahve to be lexicographically sorted by SNP_ID
+2. the files specified above have to be lexicographically sorted by SNP_ID
 Specify the absolute path to each of the files in a text file (one row per file)
-Germ lines and samples can be specified in separate files.
+Germ lines and samples should be specified in separate files.
 
 -----
 USAGE
 -----
-Run the "correlate.sh" script.
-Specify (i) the file containing the sample files, 
-(ii) the file containing the germ line files (if no germ lines are available, or
+Run the "concordance_script.sh" script.
+Specify (i) the file containing the sample files, \br
+(ii) the file containing the germ line files (if no germ lines are available, or \br
 	all samples are to be compared against each other, this can be the same as (i)),
 (iii) the destination file for the output of the script,
 and (iv) [optional] a file name for the heat map to be plotted (this may not be feasible 
