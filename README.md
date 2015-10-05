@@ -27,6 +27,9 @@ Specify (i) the file containing the sample files,
 (ii) the file containing the germ line files (if no germ lines are available, or  
     all samples are to be compared against each other, this can be the same as (i)),  
 (iii) the destination file for the output of the script,  
+(iv) a binary switch (y/n) to indicate if homozygotes in both samples and germ lines (n)  
+    or only those in the germ lines (y) should be considered.  
+		The latter option is preferrable if large LOH events are expected in the data;
 and (iv) [optional] a file name for the heat map to be plotted (this may not be feasible  
     for a very large cohort, but should be intelligble with up to 100 samples).  
 The file specified in (iii) contains 4 columns:  

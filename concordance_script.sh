@@ -7,10 +7,10 @@ fi
 
 echo -n "" > $3
 if [ "$4" = "y" ] ; then
-	echo "Only considering homozygots in germ lines to avoid confusion due to massive LOH."
+	echo "Only considering homozygotes in germ lines to avoid confusion due to massive LOH."
 	c=1
 else
-	echo "Considering all homozygots..."
+	echo "Considering all homozygotes..."
 	c=0
 fi
 
