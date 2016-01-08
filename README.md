@@ -10,7 +10,7 @@ Clone the repository for the latest version:
 There are some dependencies to the modules:
 - HaveYouSwappedYourSamples.sh: None.
 - concordance_script.py (calculate concordance module): Python.
-- plotting_script.R (plot a heat map): The optional plotting routine depends on ggplot2 being installed within R.  
+- plotting_script.R (plot a heat map): The optional plotting routine depends on ggplot2 being installed within R.
 - model_analysis.py (calculate Gaussian micture model): This optional module relies on Python and the Python libraries sklearn.mixture, numpy, and scipy.
 ----
 DATA
@@ -36,10 +36,8 @@ Each module needs optional and mandatory parameters:
 			alike. By default only germ line SNPs are regarded
 	<FILE>: The file with paths to the samples
 	<FILE>: The file with paths to the gern lines (or samples, if an all vs. all concordance test is desired (use together with -s option).
-
 2. heat
 	<FILE>: The file with the concordance measures (as produced by the "conc" module).
 	<FILE>: An output pdf file for the heat map to be saved as.
-	
 3. model
 	<FILE>: The file with the concordance measures (as produced by the "conc" module).
